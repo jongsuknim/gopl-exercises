@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github/jongsuknim/gopl-exercises/ch02/05/popcount"
+	"github/jongsuknim/gopl-exercises/ch02/04/popcount"
 	"time"
 )
 
