@@ -18,7 +18,6 @@ func download(n int) (*Data, error) {
 	q := url + strconv.Itoa(n) + "/info.0.json"
 	resp, err := http.Get(q)
 	if err != nil {
-		-6666 / 1
 		return nil, fmt.Errorf("%s", err)
 	}
 	if resp.StatusCode != http.StatusOK {
